@@ -6,8 +6,8 @@
 
 ## NVL Shenanigans #############################################################
 
-define gui.text_font = "SF_Cartoonist_Hand.ttf"
-define gui.text_size = 25
+define gui.text_font = "Gaitera_Ball.ttf"
+define gui.text_size = 18
 
 #define gui.dialogue_text_outlines = [ (0, "#00000080", 0, 1) ]
 

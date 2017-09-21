@@ -1,0 +1,29 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 107, in script
+    show rae shock at scoot_right
+  File "game/script.rpy", line 107, in <module>
+    show rae shock at scoot_right
+NameError: name 'scoot_right' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 107, in script
+    show rae shock at scoot_right
+  File "C:\Users\Difference Engine\Utilities\Renpy\renpy\ast.py", line 1075, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\Difference Engine\Utilities\Renpy\renpy\ast.py", line 1036, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\Difference Engine\Utilities\Renpy\renpy\python.py", line 1749, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Difference Engine\Utilities\Renpy\renpy\python.py", line 1743, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 107, in <module>
+    show rae shock at scoot_right
+NameError: name 'scoot_right' is not defined
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.99.12.4.2187
+Yuri Jam 2017 1.0
